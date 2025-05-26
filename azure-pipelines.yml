@@ -18,7 +18,7 @@ steps:
 - script: |
     npm install
     npm run build
-    echo "Hello Pavi"
+    echo "Hello Pavi, how are u"
   displayName: 'npm install and build'
 
 - task: CopyFiles@2
